@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yusx.demo">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,12 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".layout.HorizontalLinearLayoutActivity" />
-        <activity android:name=".layout.VerticalLinearLayoutActivity" />
-        <activity android:name=".layout.RelativeLayoutActivity1" />
-        <activity android:name=".layout.RelativeLayoutActivity2" />
-        <activity android:name=".layout.RelativeLayoutActivity3" />
-        <activity android:name=".textview.TextViewActivity"></activity>
+        <activity android:name=".HorizontalLinearLayoutActivity" />
+        <activity android:name=".VerticalLinearLayoutActivity" />
+        <activity android:name=".RelativeLayoutActivity1" />
+        <activity android:name=".RelativeLayoutActivity2" />
+        <activity android:name=".RelativeLayoutActivity3" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".ImageViewActivity"></activity>
     </application>
 
 </manifest>

@@ -3,24 +3,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="15dp"
     >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HelloWorld"
+        android:text="我在跑我在跳我在笑"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
         android:background="#DD2C00"
         android:padding="5dp"
         android:layout_marginBottom="10dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="HelloWorld"
+        android:text="我在跑我在跳我在笑"
+        android:maxLines="1"
+        android:ellipsize="end"
         android:textSize="20sp"
         android:padding="5dp"
         android:textColor="#DD2C00"
         />
 
+
+    <TextView
+        android:id="@+id/v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我在跑我在跳我在笑"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/v5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我在跑我在跳我在笑"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/v6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/v7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我在跑我在跳我在笑我在跑我在跳我在笑我在跑"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.yusx.demo.layout;
+package com.yusx.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

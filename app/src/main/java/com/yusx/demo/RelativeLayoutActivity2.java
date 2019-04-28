@@ -1,15 +1,15 @@
-package com.yusx.demo.textview;
+package com.yusx.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.yusx.demo.R;
 
-public class TextViewActivity extends AppCompatActivity {
+public class RelativeLayoutActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_text_view);
+        setContentView(R.layout.activity_relative_layout2);
     }
 }
