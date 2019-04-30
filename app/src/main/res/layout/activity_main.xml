@@ -54,4 +54,20 @@
         android:text="图片"
         android:layout_below="@+id/btcb"
         />
+
+    <Button
+        android:id="@+id/btsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滚动布局"
+        android:layout_below="@+id/btiv"
+        />
+
+    <Button
+        android:id="@+id/btrc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"
+        android:layout_below="@+id/btsv"
+        />
 </RelativeLayout>

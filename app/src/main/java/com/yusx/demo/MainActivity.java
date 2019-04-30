@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.yusx.demo.recycler.RecyclerViewActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button loButton;
@@ -21,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     private Button cbButton;
 
     private Button ivButton;
+
+    private Button svButton;
+
+    private Button rcButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +92,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,ImageViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        svButton  = findViewById(R.id.btsv);
+        svButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ScrollViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        rcButton  = findViewById(R.id.btrc);
+        rcButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,RecyclerViewActivity.class);
                 startActivity(intent);
             }
         });
